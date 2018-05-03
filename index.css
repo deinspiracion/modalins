@@ -1,0 +1,118 @@
+h1{
+  color:red;
+}
+
+body{
+  margin: 0;
+}
+
+
+hr{
+      width: 95%;
+}
+
+.input-modal{
+  width: 90%;
+  text-align: center;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: solid 2px #eee;
+}
+#modal{
+      width: 80%;
+      margin-left: 10%;
+      /* height: 40%; */
+      background-color: #fff;
+      position: fixed;
+      margin-top: 150px;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+      border-radius: 5px;
+      z-index: auto;
+      animation-name: openModal;
+      animation-duration: .5s;
+      -webkit-animation-direction: alternate;
+      animation-fill-mode: forwards;
+}
+
+.modalInsBack{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: #000000b0;
+  position: absolute;
+}
+
+@keyframes openModal {
+  0%{
+    opacity: 0;
+    margin-top: 100px;
+  }
+  100%{
+    opacity: 1;
+    margin-top: 150px;
+  }
+}
+@keyframes closeModal {
+  0%{
+    opacity: 1;
+    margin-top: 150px;
+  }
+  100%{
+    opacity: 0;
+    margin-top: 100px;
+  }
+}
+
+.back{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header{
+  padding: 20px;
+  font-size: 20px;
+  background-color: firebrick;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+  /* background-color: white; */
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  font-family: arial;
+}
+
+
+.content{
+  padding: 20px;
+  font-family: 'Arial';
+  font-size:15px;
+  display: flex;
+  justify-content: center;
+}
+
+.content .mensajeCarga{
+  margin-top: 30px;
+}
+
+.footer{
+  padding: 20px;
+  bottom: 0px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+}
+#btn-aceptar{
+  background-color: blueviolet;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+#btn-cancelar{
+  background-color: #af1067;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.loading{
+  height: 90px;
+}
