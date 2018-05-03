@@ -1,2 +1,2 @@
 # modalins
-Modal para alertas y loading basico
+Modal para alertas y loading basico.
