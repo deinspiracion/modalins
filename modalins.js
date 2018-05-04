@@ -42,7 +42,7 @@ crear(obj){
 
 
       this.body.insertAdjacentHTML('afterbegin',`
-      <div  id="backModalIns" class="modalInsBack">
+      <div  id="backModalIns" class="modalInsBack"></div>
       <div id="modalins">
 
         <div class="headerMat">
@@ -71,7 +71,7 @@ crear(obj){
       </div>
 
     </div>
-</div>
+
       `  )
 
     }else {
@@ -80,7 +80,7 @@ crear(obj){
 
 
             this.body.insertAdjacentHTML('afterbegin',`
-            <div  id="backModalIns" class="modalInsBack">
+            <div  id="backModalIns" class="modalInsBack"></div>
             <div id="modalins">
 
               <div class="headerMat">
@@ -105,7 +105,7 @@ crear(obj){
             </div>
 
           </div>
-</div>
+
             `  )
 
 
@@ -114,7 +114,7 @@ crear(obj){
 
   document.getElementById("backModalIns").addEventListener("click",function(){
 
-    //cerrar()
+    cerrar()
   })
 
 
