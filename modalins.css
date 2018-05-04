@@ -1,0 +1,160 @@
+
+body{
+  margin: 0;
+}
+
+
+#modalins{
+  width: 80%;
+  margin-left: 10%;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  z-index: auto;
+  position: fixed;
+  margin-top: 150px;
+  background-color: #fff;
+  animation-name: openModal;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+.modalInsBack{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: #000000b0;
+  position: absolute;
+  animation-name: openModalBack;
+  animation-fill-mode: forwards;
+  animation-duration: .6s;
+
+}
+
+.headerMat{
+  height: 80px;
+  background-color:red;
+}
+
+.headerMat .lineaSuperior{
+  height: 10px;
+ background-color:#0097A7;
+}
+
+.headerMat .lineaInferior{
+  height: 70px;
+  background-color: #00BCD4;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.lineaInferior .titulo{
+  color:#fff;
+  padding: 15px;
+  font-size: 30px;
+  font-family: Roboto-Thin;
+}
+
+.contenidoMat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 30px;
+
+}
+.contentText{
+  font-family: Roboto-Thin;
+  margin-bottom: 10px;
+}
+
+.footerMat{
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input-modalins{
+  outline: 0;
+  width: 90%;
+  text-align: center;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: solid 2px #eee;
+}
+#modalinsBtnAceptar{
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  color:#fff;
+  background-color:#00BCD4;
+  padding: 10px 16px 10px 16px;
+  text-align: center;
+  font-family: Roboto-Thin;
+  border-radius: 2px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+
+}
+
+#modalinsBtnCancelar{
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  color:#fff;
+  background-color:#f44336;
+  padding: 10px 16px 10px 16px;
+  text-align: center;
+  font-family: Roboto-Thin;
+  border-radius: 2px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Thin.ttf);
+}
+
+@keyframes openModal {
+  0%{
+    opacity: 0;
+    margin-top: 100px;
+  }
+  100%{
+    opacity: 1;
+    margin-top: 150px;
+  }
+}
+@keyframes closeModal {
+  0%{
+    opacity: 1;
+    margin-top: 150px;
+  }
+  100%{
+    opacity: 0;
+    margin-top: 100px;
+  }
+}
+
+
+@keyframes closeModalBack {
+  0%{
+    opacity: 1;
+
+  }
+  100%{
+    opacity: 0;
+
+  }
+}
+
+@keyframes openModalBack {
+  0%{
+    opacity: 0;
+
+  }
+  100%{
+    opacity: 1;
+
+  }
+}

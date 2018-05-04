@@ -41,6 +41,8 @@ hr{
   top: 0;
   background-color: #000000b0;
   position: absolute;
+  animation-name: openModalBack;
+  animation-duration: .6s;
 }
 
 @keyframes openModal {
@@ -61,6 +63,29 @@ hr{
   100%{
     opacity: 0;
     margin-top: 100px;
+  }
+}
+
+
+@keyframes closeModalBack {
+  0%{
+    opacity: 1;
+
+  }
+  100%{
+    opacity: 0;
+
+  }
+}
+
+@keyframes openModalBack {
+  0%{
+    opacity: 0;
+
+  }
+  100%{
+    opacity: 1;
+
   }
 }
 

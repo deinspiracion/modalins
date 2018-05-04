@@ -1,21 +1,19 @@
-let modalinsp = new Modalins();
+let modalins = new Modalins();
 function abrirModal(){
 
 
-modalinsp.crear({
-    titulo:'Titulo del Modal',
-    contenido:'Ingresa un dato',
+modalins.crear({
+    titulo:'En Transaccion',
+    contenido:'Ingrese un número por favor',
     botonAceptarText:'Aceptar',
-    botonCancelarText:'cancelar ',
-    colorBotonAceptar:'#eee',
+    botonCancelarText:'Cancelar',
+    colorBotonAceptar:'',
     input:true,
     tipoInput:"number"
 
   }).then(function(result){
     console.log(result);
-    if(result=="aceptar"){
 
-    }
   })
 
 
