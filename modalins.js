@@ -114,7 +114,7 @@ crear(obj){
 
   document.getElementById("backModalIns").addEventListener("click",function(){
 
-    cerrar()
+    //cerrar()
   })
 
 
