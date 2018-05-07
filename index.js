@@ -4,11 +4,12 @@ function abrirModal(){
 
 modalins.crear({
     titulo:'En Transaccion',
-    contenido:'Ingrese un número por favor',
+    contenido:'Esta seguro que desea continuar',
     botonAceptarText:'Aceptar',
     botonCancelarText:'Cancelar',
-    colorBotonAceptar:'',
-    input:true,
+    estilo:"uno",
+    loading:true,
+    tipo:'',
     tipoInput:"number"
 
   }).then(function(result){
