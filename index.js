@@ -2,15 +2,15 @@ let modalins = new Modalins();
 function abrirModal(){
 
 
-modalins.crear({
-    titulo:'En Transaccion',
-    contenido:'Esta seguro que desea continuar',
-    botonAceptarText:'Aceptar',
-    botonCancelarText:'Cancelar',
-    estilo:"rojo",
+modalins.create({
+    title:'En Transaccion',
+    content:'Esta seguro que desea continuar',
+    confirmText:'Aceptar',
+    CancelalText:'Cancelar',
+    style:"normal",
     loading:true,
-    tipo:'input',
-    tipoInput:"number"
+    type:'input',
+    typeInput:"number"
 
   }).then(function(result){
     console.log(result);
@@ -23,5 +23,5 @@ modalins.crear({
 }
 
 function cerrarModal(){
-  Modalinsp.cerrar();
+  Modalinsp.close();
 }

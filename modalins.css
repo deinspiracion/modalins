@@ -44,14 +44,14 @@ body{
   /* background-color: #00BCD4; */
   box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 }
-.lineaInferior .titulo{
+.lineaInferior .title{
   color:#fff;
   padding: 15px;
   font-size: 30px;
   font-family: Roboto-Thin;
 }
 
-.contenidoMat{
+.contentMat{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,25 +117,25 @@ body{
   background-color:#00BCD4;
 }
 
-.azul{
+.blue{
   background-color:#0288D1;
 }
-.azul_1{
+.blue_1{
   background-color:#03A9F4;
 }
 
 
-.naranja{
+.orange{
   background-color:#F57C00;
 }
-.naranja_1{
+.orange_1{
   background-color:#FF9800;
 }
 
-.rojo{
+.red{
   background-color:#C2185B;
 }
-.rojo_1{
+.red_1{
   background-color:#E91E63;
 }
 
