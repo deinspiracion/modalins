@@ -63,27 +63,29 @@ modalins.crear({
 
 
 ### retorno de datos
-
-estilo por defecto
-
 este modal devolvera una promesa con los datos ingresados en el input o la palabra aceptar o cancelar segun el boton que se presiono.
 
 
 ### capturas
 
-estilo : 'azul'
+##### estilo por defecto
+
 <a href="https://ibb.co/mF6ouS"><img src="https://preview.ibb.co/msxuZS/Screen_Shot_2018_05_09_at_2_07_01_AM.png" alt="Screen_Shot_2018_05_09_at_2_07_01_AM" border="0"></a>
 
-estilo:'azul'
+##### estilo:'azul'
+
 <a href="https://ibb.co/hbP2M7"><img src="https://preview.ibb.co/fw5WES/Screen_Shot_2018_05_09_at_2_07_22_AM.png" alt="Screen_Shot_2018_05_09_at_2_07_22_AM" border="0"></a>
 
-estilo:'naranja'
+##### estilo:'naranja'
+
 <a href="https://ibb.co/kMwGg7"><img src="https://preview.ibb.co/dmgSon/Screen_Shot_2018_05_09_at_2_07_37_AM.png" alt="Screen_Shot_2018_05_09_at_2_07_37_AM" border="0"></a>
 
-estilo:'rojo'
+##### estilo:'rojo'
+
 <a href="https://ibb.co/ckj2M7"><img src="https://preview.ibb.co/nesBES/Screen_Shot_2018_05_09_at_2_07_48_AM.png" alt="Screen_Shot_2018_05_09_at_2_07_48_AM" border="0"></a>
 
-tipo:'input'
+##### tipo:'input'
+
 <a href="https://ibb.co/heynM7"><img src="https://preview.ibb.co/iBYMg7/Screen_Shot_2018_05_09_at_2_15_33_AM.png" alt="Screen_Shot_2018_05_09_at_2_15_33_AM" border="0"></a>
 
 
