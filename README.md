@@ -29,8 +29,7 @@ instancia el modal
 ````
 let modalins = new Modalins();
 ````
-
-y crealo
+crealo
 
 `````
 modalins.crear({
@@ -49,6 +48,12 @@ modalins.crear({
   })
 
   `````
+  
+  y cerrarlo
+  
+  ````
+  Modalinsp.cerrar();
+  ````
 
   ### configuracion
 
