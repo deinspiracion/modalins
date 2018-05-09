@@ -9,7 +9,7 @@ modalins.crear({
     botonCancelarText:'Cancelar',
     estilo:"rojo",
     loading:true,
-    tipo:'',
+    tipo:'input',
     tipoInput:"number"
 
   }).then(function(result){
