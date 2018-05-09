@@ -7,7 +7,7 @@ modalins.crear({
     contenido:'Esta seguro que desea continuar',
     botonAceptarText:'Aceptar',
     botonCancelarText:'Cancelar',
-    estilo:"uno",
+    estilo:"rojo",
     loading:true,
     tipo:'',
     tipoInput:"number"
