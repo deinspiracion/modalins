@@ -5,7 +5,7 @@ function abrirModal(){
 
   modalins.create({
       title:'En Transaccion',
-      content:'#idContenido',
+      content:'Cargando',
       loading:true,
       }).then(function(result){
       console.log(result);

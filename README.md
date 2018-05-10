@@ -19,7 +19,6 @@ tambien incluye el js al final del body
 <script src="./modalins.js" charset="utf-8"></script>
 
 ````
-y la fuente en el mismo nivel que el css, esta fuente permitira darle un toque distinto al modal.
 
 
 #### utilizacion
