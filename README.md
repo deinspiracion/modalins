@@ -53,6 +53,30 @@ modalins.create({
 
   - title : dale un texto al titulo del modal
   - content : escribe un texto que se mostrara de manera central en el modal
+
+    al content se le puede pasar un id  para mostrar el contenido de la etiqueta  :
+
+    ````
+    <p id="idContenido" style="display:none"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+
+    ````
+
+
+    ````
+    modalins.create({
+        title:'En Transaccion',
+        content:'#idContenido'
+
+      }).then(function(result){
+        console.log(result);
+
+      })
+
+
+    ````
+
+
   - confirmText: texto que tendra el boton principal o de aceptar
   - cancelText : texto que tendra el boton secundario o el de cancelar
   - style : convinacion de colores que puedes modificar, existen 4 , el 'normal' que viene por defecto,'blue',   'orange','red'

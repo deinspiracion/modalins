@@ -62,6 +62,7 @@ body{
 .contentText{
   font-family: Roboto-Thin;
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 .footerMat{
