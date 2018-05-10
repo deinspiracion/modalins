@@ -32,15 +32,9 @@ let modalins = new Modalins();
 crealo
 
 `````
-modalins.crear({
+modalins.create({
     title:'En Transaccion',
-    content:'Esta seguro que desea continuar',
-    confirmText:'Aceptar',
-    cancelText:'Cancelar',
-    style:"blue",
-    loading:true,
-    type:'',
-    typeInput:"number"
+    content:'Esta seguro que desea continuar'
 
   }).then(function(result){
     console.log(result);
@@ -52,20 +46,20 @@ modalins.crear({
   y cerrarlo
 
   ````
-  Modalinsp.cerrar();
+  Modalins.close();
   ````
 
   ### configuracion
 
-  -  title : dale un texto al titulo del modal
+  - title : dale un texto al titulo del modal
   - content : escribe un texto que se mostrara de manera central en el modal
   - confirmText: texto que tendra el boton principal o de aceptar
   - cancelText : texto que tendra el boton secundario o el de cancelar
-  - style : convinacion de colores que puedes modificar, existen 4 , el 'normal' que viene por defecto,'blue' parecido al normal, 'orange','red'
+  - style : convinacion de colores que puedes modificar, existen 4 , el 'normal' que viene por defecto,'blue',   'orange','red'
   - loanding: true para que aparezca una imagen de carga, false para que no aparezca
   - type:por defecto vacio, al colorcar 'input' el modal traera un input para ingresar un numero o texto
   - typeInput: por defecto vacio y recibira un texto , si se coloca 'number', solo recibira caracteres numericos.
-
+  - hideButtons: oculta los botones.
 
 ### retorno de datos
 este modal devolvera una promesa con los datos ingresados en el input o la palabra aceptar o cancelar segun el boton que se presiono.

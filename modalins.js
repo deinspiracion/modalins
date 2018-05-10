@@ -24,7 +24,7 @@ create(obj){
         contentFooter +=` <button type="button" id="modalinsBtnCancelar" class="${style}" name="button">${obj.CancelalText}</button>`
     }
 
-    if (obj.confirmText== undefined && obj.CancelalText== undefined) {
+    if ((obj.confirmText== undefined && obj.CancelalText== undefined) && obj.hideButtons != true) {
         contentFooter +=` <button type="button"  class="${style}" id="modalinsBtnAceptar" name="button">Aceptar</button>
                           <button type="button" id="modalinsBtnCancelar" name="button" class="${style}">Cancelar</button>`
     }
@@ -36,7 +36,7 @@ create(obj){
         ${contentFooter}
     </div>`;
 
-    if(obj.type=='input'){
+    if(obj.type=='input' || obj.type !== undefined){
 
       body.insertAdjacentHTML('afterbegin',`
       <div  id="backModalIns" class="modalInsBack"></div>
@@ -55,7 +55,7 @@ create(obj){
           </div>
           </div>`);
         }else {
-          this.body.insertAdjacentHTML('afterbegin',`
+          body.insertAdjacentHTML('afterbegin',`
             <div  id="backModalIns" class="modalInsBack"></div>
             <div id="modalins">
               <div class="headerMat">
@@ -77,14 +77,14 @@ create(obj){
 
     return new Promise((resolver,rechazar)=>{
 
-          if (obj.CancelalText !== undefined) {
+          if (obj.hideButtons  != true || obj.hideButtons == undefined) {
             document.getElementById("modalinsBtnCancelar").addEventListener("click",function(event){
                close().then(()=>{
                  resolver("cancelar")
                });
              }) ;
           }
-          if (obj.confirmText!== undefined) {
+          if (obj.hideButtons != true || obj.hideButtons == undefined) {
             document.getElementById("modalinsBtnAceptar").addEventListener("click",function(event){
                let response="";
                if (document.getElementsByClassName("input-modalins")[0] === undefined) {
