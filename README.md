@@ -76,6 +76,9 @@ modalins.create({
 
     ````
 
+<a href="https://imgbb.com/"><img src="https://image.ibb.co/kF70rJ/Screen_Shot_2018_05_09_at_10_27_58_PM.png" alt="Screen_Shot_2018_05_09_at_10_27_58_PM" border="0"></a>
+
+
 
   - confirmText: texto que tendra el boton principal o de aceptar
   - cancelText : texto que tendra el boton secundario o el de cancelar
