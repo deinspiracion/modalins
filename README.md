@@ -83,7 +83,7 @@ modalins.create({
   - confirmText: texto que tendra el boton principal o de aceptar
   - cancelText : texto que tendra el boton secundario o el de cancelar
   - style : combinacion de colores que puedes modificar, existen 4 , el 'normal' que viene por defecto,'blue',   'orange','red'
-  - loanding: true para que aparezca una imagen de carga, false para que no aparezca
+  - loading: true para que aparezca una imagen de carga, false para que no aparezca
   - type:por defecto vacio, al colorcar 'input' el modal traera un input para ingresar un numero o texto
   - typeInput: por defecto vacio y recibira un texto , si se coloca 'number', solo recibira caracteres numericos.
   - hideButtons: oculta los botones.
