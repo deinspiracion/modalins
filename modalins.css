@@ -16,6 +16,7 @@ body{
   animation-name: openModal;
   animation-fill-mode: forwards;
   animation-duration: .5s;
+  z-index: 10000;
 }
 
 .modalInsBack{
@@ -27,7 +28,7 @@ body{
   animation-name: openModalBack;
   animation-fill-mode: forwards;
   animation-duration: .6s;
-
+  z-index: 9999;
 }
 
 .headerMat{
