@@ -7,6 +7,8 @@
 
 incluiye el archivo css en el heade de el html.
 
+
+
 ````
 
 <link rel="stylesheet" href="./modalins.css">
