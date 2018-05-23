@@ -5,9 +5,7 @@
 
 #### instalacion
 
-incluiye el archivo css en el heade de el html.
-
-
+incluiye el archivo css en el heade de el html.s
 
 ````
 
