@@ -24,7 +24,7 @@ body{
   width: 100%;
   top: 0;
   background-color: #000000b0;
-  position: absolute;
+  position: fixed;
   animation-name: openModalBack;
   animation-fill-mode: forwards;
   animation-duration: .6s;
@@ -50,7 +50,7 @@ body{
   color:#fff;
   padding: 15px;
   font-size: 30px;
-  font-family: Roboto-Thin;
+  font-family: Roboto;
 }
 
 .contentMat{
@@ -62,7 +62,7 @@ body{
 
 }
 .contentText{
-  font-family: Roboto-Thin;
+  font-family: Roboto;
   margin-bottom: 10px;
   padding: 10px;
 }
@@ -89,7 +89,7 @@ body{
   color:#fff;
   padding: 10px 16px 10px 16px;
   text-align: center;
-  font-family: Roboto-Thin;
+  font-family: Roboto;
   border-radius: 2px;
   border: none;
   outline: 0;
@@ -107,7 +107,7 @@ body{
   background-color:#f44336;
   padding: 10px 16px 10px 16px;
   text-align: center;
-  font-family: Roboto-Thin;
+  font-family: Roboto;
   border-radius: 2px;
   border: none;
   outline: 0;

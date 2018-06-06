@@ -111,7 +111,17 @@ create(obj){
        });
 
   };
+  close(){
+    document.getElementById("modalins").style.animationName='closeModal'
+    document.getElementById("backModalIns").style.animationName='closeModalBack'
+    setTimeout(()=>
+     {
+      document.getElementById("backModalIns").classList.remove("modalInsBack")
+      document.getElementById("modalins").remove()
 
+
+     },500)
+  }
 
 
 }
